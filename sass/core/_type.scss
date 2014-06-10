@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'tondu beta';
+  src: url('./fonts/tondu_beta/tondu_beta.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/tondu_beta/tondu_beta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/tondu_beta/tondu_beta.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/tondu_beta/tondu_beta.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/tondu_beta/tondu_beta.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+@font-face {
+  font-family: 'neutraface';
+  src: url('./fonts/Neutraface/Neutraface2Display-Light.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/Neutraface/Neutraface2Display-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Neutraface/Neutraface2Display-Light.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/Neutraface/Neutraface2Display-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/Neutraface/Neutraface2Display-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'tondu beta', helvetica, arial, sans-serif;
+  }
+
+  p {
+    font-family: 'neutraface', helvetica, arial, sans-serif;
+  }

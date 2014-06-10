@@ -1,0 +1,4 @@
+body {
+  background: url(../img/punchandjudy.jpg) no-repeat center center fixed;
+  @include responsive-image(cover);
+}

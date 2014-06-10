@@ -1,0 +1,6 @@
+@mixin responsive-image($view) {
+  -webkit-background-size: $view;
+  -moz-background-size: $view;
+  -o-background-size: $view;
+  background-size: $view;
+}
