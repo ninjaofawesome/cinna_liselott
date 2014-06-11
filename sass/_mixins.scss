@@ -4,3 +4,11 @@
   -o-background-size: $view;
   background-size: $view;
 }
+
+@mixin smooth-operator($time){
+  -webkit-transition: background-color $time;
+  -moz-transition: background-color $time;
+  -o-transition: background-color $time;
+  transition: background-color $time;
+
+}

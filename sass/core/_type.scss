@@ -23,8 +23,33 @@
   h5,
   h6 {
     font-family: 'tondu beta', helvetica, arial, sans-serif;
+    color: $white;
+  }
+
+  .title {
+    font-size: 5.5em;
+    color: $white;
+    margin-bottom: 0;
+    &.subtitle{
+      font-size: 3.5em;
+      color: $melon;
+      margin-top: 0;
+    }
   }
 
   p {
     font-family: 'neutraface', helvetica, arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: $white;
+  }
+
+  .big-text{
+    font-size: 24px;
+    display: inline;
+    font-weight: 800;
+  }
+
+  .inline {
+    display: inline;
   }

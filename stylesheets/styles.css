@@ -249,8 +249,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -5204,6 +5204,20 @@ body {
   -o-background-size: cover;
   background-size: cover; }
 
+.content-box {
+  margin: 50px 20px;
+  padding: 10px 5px;
+  min-height: 600px;
+  background-color: #f16c90; }
+
+.words-box {
+  padding: 10px; }
+
+.sticky-bottom {
+  position: absolute;
+  bottom: 10%;
+  left: 8%; }
+
 @font-face {
   font-family: 'tondu beta';
   src: url("./fonts/tondu_beta/tondu_beta.eot");
@@ -5224,7 +5238,57 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'tondu beta', helvetica, arial, sans-serif; }
+  font-family: 'tondu beta', helvetica, arial, sans-serif;
+  color: white; }
+
+.title {
+  font-size: 5.5em;
+  color: white;
+  margin-bottom: 0; }
+  .title.subtitle {
+    font-size: 3.5em;
+    color: #f79c73;
+    margin-top: 0; }
 
 p {
-  font-family: 'neutraface', helvetica, arial, sans-serif; }
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: white; }
+
+.big-text {
+  font-size: 24px;
+  display: inline;
+  font-weight: 800; }
+
+.inline {
+  display: inline; }
+
+.btn {
+  padding: 10px 15px;
+  margin: 5px;
+  font-family: 'tondu beta', helvetica, arial, sans-serif;
+  font-size: 1.5em;
+  border-radius: 6px;
+  min-width: 85px;
+  -webkit-transition: background-color 700ms;
+  -moz-transition: background-color 700ms;
+  -o-transition: background-color 700ms;
+  transition: background-color 700ms; }
+  .btn.large {
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 2.5em;
+    border-radius: 9px; }
+  .btn.green-button {
+    background-color: #00ab67;
+    color: #b3d56a; }
+    .btn.green-button:hover {
+      background-color: #b3d56a;
+      color: white; }
+  .btn.rose-button {
+    background-color: #ee3e63;
+    color: #f79c73; }
+    .btn.rose-button:hover {
+      background-color: #f79c73;
+      color: white; }

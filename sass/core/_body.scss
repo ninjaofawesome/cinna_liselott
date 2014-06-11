@@ -2,3 +2,20 @@ body {
   background: url(../img/punchandjudy.jpg) no-repeat center center fixed;
   @include responsive-image(cover);
 }
+
+.content-box{
+  margin: 50px 20px;
+  padding: 10px 5px;
+  min-height: 600px;
+  background-color: $pink;
+}
+
+.words-box{
+  padding: 10px;
+}
+
+.sticky-bottom{
+   position: absolute;
+   bottom: 10%;
+   left: 8%;
+}

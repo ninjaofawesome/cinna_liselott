@@ -1,0 +1,37 @@
+.btn{
+  padding: 10px 15px;
+  margin: 5px;
+  font-family: 'tondu beta', helvetica, arial, sans-serif;
+  font-size: 1.5em;
+  border-radius: 6px;
+  min-width: 85px;
+
+  @include smooth-operator(700ms);
+
+  &.large{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 2.5em;
+    border-radius: 9px;
+  }
+
+  &.green-button{
+    background-color: $jade;
+    color: $lime;
+    &:hover{
+      background-color: $lime;
+      color: $white;
+    }
+  }
+
+  &.rose-button{
+    background-color: $rose;
+    color: $melon;
+    &:hover{
+      background-color: $melon;
+      color: $white;
+    }
+  }
+
+
+}
