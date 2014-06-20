@@ -5205,7 +5205,7 @@ button.close {
   background-size: cover; }
 
 .content-box {
-  margin: 50px 20px;
+  margin: 75px 20px;
   padding: 10px 5px;
   height: 600px;
   background-color: #f16c90;
@@ -5237,9 +5237,9 @@ button.close {
 
 @font-face {
   font-family: 'neutraface';
-  src: url("./fonts/Neutraface/Neutraface2Display-Light.eot");
+  src: url("./fonts/neutraface/Neutraface2Display-Light.eot");
   /* IE9 Compat Modes */
-  src: url("./fonts/Neutraface/Neutraface2Display-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/Neutraface/Neutraface2Display-Light.woff") format("woff"), url("./fonts/Neutraface/Neutraface2Display-Light.ttf") format("truetype"), url("./fonts/Neutraface/Neutraface2Display-Light.svg#svgFontName") format("svg");
+  src: url("./fonts/neutraface/Neutraface2Display-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/neutraface/Neutraface2Display-Light.woff") format("woff"), url("./fonts/neutraface/Neutraface2Display-Light.ttf") format("truetype"), url("./fonts/neutraface/Neutraface2Display-Light.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
 h1,
