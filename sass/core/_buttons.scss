@@ -1,9 +1,24 @@
 .btn{
-  padding: 10px 15px;
-  margin: 2px;
+  padding: 8px 10px;
+  margin: 1px;
   font-family: 'tondu beta', helvetica, arial, sans-serif;
   font-size: 1.25em;
   border-radius: 6px;
+  &:hover, &:focus, &:active, &:visited {
+    outline: none;
+    border: none;
+  }
+  @include breakpoint(mobile){
+    padding: 4px 6px;
+    margin: .5px;
+    font-size: 1em;
+  }
+
+  @include breakpoint(tablet){
+    padding: 4px 6px;
+    margin: .5px;
+    font-size: 1em;
+  }
 
 
   @include smooth-operator(700ms);
@@ -13,7 +28,8 @@
     color: $lime;
     &:hover{
       background-color: $lime;
-      color: $white;
+      color: $jade;
+
     }
   }
 
