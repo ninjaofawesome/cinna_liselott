@@ -30,10 +30,13 @@
     font-size: 5.5em;
     color: $white;
     margin-bottom: 0;
-    &.subtitle{
+    &.subtitle {
       font-size: 3.5em;
       color: $melon;
       margin-top: 0;
+    }
+    &.section-title{
+      font-size: 3.5em;
     }
   }
 
@@ -44,12 +47,31 @@
     color: $white;
   }
 
+  .whitelist {
+    font-family: 'neutraface', helvetica, arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: $white;
+    list-style-type: none;
+    font-weight: 400;
+  }
+
   .big-text{
     font-size: 24px;
     display: inline;
     font-weight: 800;
   }
 
+  .right-text {
+    text-align: right;
+  }
+
   .inline {
     display: inline;
+  }
+
+  .bold-inline-text {
+    display: inline;
+    font-weight: 900;
+    font-size: 24px;
   }

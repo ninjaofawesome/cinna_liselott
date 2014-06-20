@@ -1,21 +1,34 @@
-body {
-  background: url(../img/punchandjudy.jpg) no-repeat center center fixed;
+.background-image {
+  background: url(../img/punchandjudy.jpg) center center fixed repeat;
   @include responsive-image(cover);
 }
 
 .content-box{
   margin: 50px 20px;
   padding: 10px 5px;
-  min-height: 600px;
+  height: 600px;
   background-color: $pink;
+  position: relative;
 }
 
 .words-box{
   padding: 10px;
 }
 
+.navigation{
+  list-style-type: none;
+}
+
+.list-no-pad {
+  padding-left: 0;
+}
+
+.inline-element{
+  display: inline;
+}
+
 .sticky-bottom{
    position: absolute;
-   bottom: 10%;
-   left: 8%;
+   bottom: 5%;
+   left: 0;
 }

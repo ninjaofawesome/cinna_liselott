@@ -5197,8 +5197,8 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-body {
-  background: url(../img/punchandjudy.jpg) no-repeat center center fixed;
+.background-image {
+  background: url(../img/punchandjudy.jpg) center center fixed repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -5207,16 +5207,26 @@ body {
 .content-box {
   margin: 50px 20px;
   padding: 10px 5px;
-  min-height: 600px;
-  background-color: #f16c90; }
+  height: 600px;
+  background-color: #f16c90;
+  position: relative; }
 
 .words-box {
   padding: 10px; }
 
+.navigation {
+  list-style-type: none; }
+
+.list-no-pad {
+  padding-left: 0; }
+
+.inline-element {
+  display: inline; }
+
 .sticky-bottom {
   position: absolute;
-  bottom: 10%;
-  left: 8%; }
+  bottom: 5%;
+  left: 0; }
 
 @font-face {
   font-family: 'tondu beta';
@@ -5249,6 +5259,8 @@ h6 {
     font-size: 3.5em;
     color: #f79c73;
     margin-top: 0; }
+  .title.section-title {
+    font-size: 3.5em; }
 
 p {
   font-family: 'neutraface', helvetica, arial, sans-serif;
@@ -5256,30 +5268,40 @@ p {
   text-align: justify;
   color: white; }
 
+.whitelist {
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: white;
+  list-style-type: none;
+  font-weight: 400; }
+
 .big-text {
   font-size: 24px;
   display: inline;
   font-weight: 800; }
 
+.right-text {
+  text-align: right; }
+
 .inline {
   display: inline; }
 
+.bold-inline-text {
+  display: inline;
+  font-weight: 900;
+  font-size: 24px; }
+
 .btn {
   padding: 10px 15px;
-  margin: 5px;
+  margin: 2px;
   font-family: 'tondu beta', helvetica, arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   border-radius: 6px;
-  min-width: 85px;
   -webkit-transition: background-color 700ms;
   -moz-transition: background-color 700ms;
   -o-transition: background-color 700ms;
   transition: background-color 700ms; }
-  .btn.large {
-    padding: 20px 30px;
-    margin: 5px;
-    font-size: 2.5em;
-    border-radius: 9px; }
   .btn.green-button {
     background-color: #00ab67;
     color: #b3d56a; }
