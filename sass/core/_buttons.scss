@@ -13,13 +13,11 @@
     margin: .5px;
     font-size: 1em;
   }
-
   @include breakpoint(tablet){
     padding: 4px 6px;
     margin: .5px;
     font-size: 1em;
   }
-
 
   @include smooth-operator(700ms);
 

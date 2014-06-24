@@ -18,6 +18,12 @@
       height: 625px;
       width: 350px;
     }
+    @include breakpoint(tablet){
+      height: 600px;
+    }
+    @include breakpoint(desktop){
+      height: 650px;
+    }
 }
 
 .words-box{
@@ -63,5 +69,15 @@
 .sticky-bottom{
    position: absolute;
    bottom: 10px;
+   left: 25%;
+    @include breakpoint(mobile){
+      left: 0;
+    }
+    @include breakpoint(tablet){
+      left: 25%%;
+    }
+    @include breakpoint(desktop){
+      left: 0;
+    }
 
 }

@@ -5219,6 +5219,12 @@ button.close {
     .content-box {
       height: 625px;
       width: 350px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .content-box {
+      height: 600px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .content-box {
+      height: 650px; } }
 
 .words-box {
   padding: 10px;
@@ -5257,7 +5263,17 @@ button.close {
 
 .sticky-bottom {
   position: absolute;
-  bottom: 10px; }
+  bottom: 10px;
+  left: 25%; }
+  @media all and (max-width: 767px) {
+    .sticky-bottom {
+      left: 0; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .sticky-bottom {
+      left: 25%%; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .sticky-bottom {
+      left: 0; } }
 
 @font-face {
   font-family: 'tondu beta';
