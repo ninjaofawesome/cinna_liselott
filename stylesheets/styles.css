@@ -5263,17 +5263,10 @@ button.close {
 
 .sticky-bottom {
   position: absolute;
-  bottom: 10px;
-  left: 25%; }
-  @media all and (max-width: 767px) {
+  bottom: 10px; }
+  @media all and (min-width: 1200px) {
     .sticky-bottom {
-      left: 0; } }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .sticky-bottom {
-      left: 25%%; } }
-  @media all and (min-width: 992px) and (max-width: 1199px) {
-    .sticky-bottom {
-      left: 0; } }
+      left: 25%; } }
 
 @font-face {
   font-family: 'tondu beta';

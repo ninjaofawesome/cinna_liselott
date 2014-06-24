@@ -69,15 +69,8 @@
 .sticky-bottom{
    position: absolute;
    bottom: 10px;
-   left: 25%;
-    @include breakpoint(mobile){
-      left: 0;
-    }
-    @include breakpoint(tablet){
-      left: 25%%;
-    }
-    @include breakpoint(desktop){
-      left: 0;
+    @include breakpoint(large){
+      left: 25%;
     }
 
 }
