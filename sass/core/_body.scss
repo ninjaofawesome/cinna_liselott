@@ -13,13 +13,22 @@
     @include breakpoint(mobile){
       height: 600px;
       width: 350px;
+      &.about-box {
+        height: 650px;
+      }
+      &.workshop-box {
+        height: 700px;
+      }
     }
     @include breakpoint(tablet){
       height: 625px;
       width: 350px;
-    }
-    @include breakpoint(tablet){
-      height: 600px;
+      &.about-box {
+        height: 650px;
+      }
+      &.workshop-box {
+        height: 700px;
+      }
     }
     @include breakpoint(desktop){
       height: 650px;
@@ -69,8 +78,8 @@
 .sticky-bottom{
    position: absolute;
    bottom: 10px;
-    @include breakpoint(large){
-      left: 25%;
-    }
+    // @include breakpoint(large){
+    //   left: 25%;
+    // }
 
 }
