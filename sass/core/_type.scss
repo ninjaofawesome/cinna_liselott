@@ -84,10 +84,23 @@
   }
 
   .big-text{
-    font-size: 24px;
-    display: inline;
-    font-weight: 800;
-  }
+      font-family: 'neutraface', helvetica, arial, sans-serif;
+      font-size: 24px;
+      display: inline;
+      font-weight: 800;
+      color: $white;
+    }
+
+
+  .medium-text{
+      font-family: 'neutraface', helvetica, arial, sans-serif;
+      font-size: 21px;
+      font-weight: 800;
+      color: $white;
+      list-style-type: none;
+    }
+
+
 
   .right-text {
     text-align: right;

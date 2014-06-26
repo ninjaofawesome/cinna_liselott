@@ -1,0 +1,22 @@
+// body{
+//   position: fixed;
+// }
+
+.container {
+  min-width: 1200px;
+  min-height: 1px;
+}
+
+.row {
+  width: 100%;
+  min-height: 1px;
+  position: relative;
+}
+
+.column {
+  width: 50%;
+  position: absolute;
+  &.offset {
+    left: 50;
+  }
+}

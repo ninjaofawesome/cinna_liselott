@@ -1,3 +1,18 @@
+.container {
+  min-width: 1200px;
+  min-height: 1px; }
+
+.row {
+  width: 100%;
+  min-height: 1px;
+  position: relative; }
+
+.column {
+  width: 50%;
+  position: absolute; }
+  .column.offset {
+    left: 50; }
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5346,9 +5361,18 @@ p {
   font-weight: 400; }
 
 .big-text {
+  font-family: 'neutraface', helvetica, arial, sans-serif;
   font-size: 24px;
   display: inline;
-  font-weight: 800; }
+  font-weight: 800;
+  color: white; }
+
+.medium-text {
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  color: white;
+  list-style-type: none; }
 
 .right-text {
   text-align: right; }
