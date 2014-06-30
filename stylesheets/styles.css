@@ -264,9 +264,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
-
+  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot?1402409061");
+  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot?&1402409061#iefix") format("embedded-opentype"), url("fonts/bootstrap/glyphicons-halflings-regular.woff?1402409061") format("woff"), url("fonts/bootstrap/glyphicons-halflings-regular.ttf?1402409061") format("truetype"), url("fonts/bootstrap/glyphicons-halflings-regular.svg?1402409061#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -891,7 +890,7 @@ th {
 
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: transparent; }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -4001,7 +4000,6 @@ a.thumbnail.active {
 
   to {
     background-position: 0 0; } }
-
 .progress {
   overflow: hidden;
   height: 20px;
@@ -4959,7 +4957,7 @@ button.close {
     border-radius: 10px;
     cursor: pointer;
     background-color: #000 \9;
-    background-color: rgba(0, 0, 0, 0); }
+    background-color: transparent; }
   .carousel-indicators .active {
     margin: 0;
     width: 12px;
@@ -5045,7 +5043,6 @@ button.close {
 
 @-ms-viewport {
   width: device-width; }
-
 .visible-xs, .visible-sm, .visible-md, .visible-lg {
   display: none !important; }
 
@@ -5285,20 +5282,96 @@ button.close {
   position: absolute;
   bottom: 10px; }
 
+.content-box-pirate {
+  margin: 50px 20px;
+  padding: 10px 5px;
+  height: 625px;
+  width: 500px;
+  background-color: #f16c90; }
+  @media all and (max-width: 767px) {
+    .content-box-pirate {
+      height: 600px;
+      width: 350px; }
+      .content-box-pirate.about-box {
+        height: 650px; }
+      .content-box-pirate.workshop-box {
+        height: 700px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .content-box-pirate {
+      height: 625px;
+      width: 350px; }
+      .content-box-pirate.about-box {
+        height: 650px; }
+      .content-box-pirate.workshop-box {
+        height: 700px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .content-box-pirate {
+      height: 650px; } }
+
+.content-box-princess {
+  margin: 50px 20px;
+  padding: 10px 5px;
+  height: 625px;
+  width: 500px;
+  background-color: #f16c90; }
+  @media all and (max-width: 767px) {
+    .content-box-princess {
+      height: 600px;
+      width: 350px; }
+      .content-box-princess.about-box {
+        height: 650px; }
+      .content-box-princess.workshop-box {
+        height: 700px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .content-box-princess {
+      height: 625px;
+      width: 350px; }
+      .content-box-princess.about-box {
+        height: 650px; }
+      .content-box-princess.workshop-box {
+        height: 700px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .content-box-princess {
+      height: 650px; } }
+
+.content-box-superhero {
+  margin: 50px 20px;
+  padding: 10px 5px;
+  height: 625px;
+  width: 500px;
+  background-color: red; }
+  @media all and (max-width: 767px) {
+    .content-box-superhero {
+      height: 600px;
+      width: 350px; }
+      .content-box-superhero.about-box {
+        height: 650px; }
+      .content-box-superhero.workshop-box {
+        height: 700px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .content-box-superhero {
+      height: 625px;
+      width: 350px; }
+      .content-box-superhero.about-box {
+        height: 650px; }
+      .content-box-superhero.workshop-box {
+        height: 700px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .content-box-superhero {
+      height: 650px; } }
+
 @font-face {
   font-family: 'tondu beta';
   src: url("./fonts/tondu_beta/tondu_beta.eot");
   /* IE9 Compat Modes */
   src: url("./fonts/tondu_beta/tondu_beta.eot?#iefix") format("embedded-opentype"), url("./fonts/tondu_beta/tondu_beta.woff") format("woff"), url("./fonts/tondu_beta/tondu_beta.ttf") format("truetype"), url("./fonts/tondu_beta/tondu_beta.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
-
 @font-face {
   font-family: 'neutraface';
   src: url("./fonts/neutraface/Neutraface2Display-Light.eot");
   /* IE9 Compat Modes */
   src: url("./fonts/neutraface/Neutraface2Display-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/neutraface/Neutraface2Display-Light.woff") format("woff"), url("./fonts/neutraface/Neutraface2Display-Light.ttf") format("truetype"), url("./fonts/neutraface/Neutraface2Display-Light.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
-
 h1,
 h2,
 h3,
