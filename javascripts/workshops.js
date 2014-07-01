@@ -21,6 +21,7 @@
       $('.content-box-princess').fadeIn(600);
     });
 
+
     $('#close-princess').click(function(){
       console.log('pirate close');
       $('.content-box-princess').fadeOut(600);

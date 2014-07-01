@@ -122,6 +122,39 @@
     }
 }
 
+}
+
+.content-box-pirate {
+  margin: 50px 20px;
+  padding: 10px 5px;
+  height: 625px;
+  width: 500px;
+  background-color: $pink;
+    @include breakpoint(mobile){
+      height: 600px;
+      width: 350px;
+      &.about-box {
+        height: 650px;
+      }
+      &.workshop-box {
+        height: 700px;
+      }
+    }
+    @include breakpoint(tablet){
+      height: 625px;
+      width: 350px;
+      &.about-box {
+        height: 650px;
+      }
+      &.workshop-box {
+        height: 700px;
+      }
+    }
+    @include breakpoint(desktop){
+      height: 650px;
+    }
+}
+
 .content-box-princess {
   margin: 50px 20px;
   padding: 10px 5px;
