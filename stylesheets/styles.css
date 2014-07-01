@@ -5283,6 +5283,10 @@ button.close {
   position: absolute;
   bottom: 10px; }
 
+.sticky-bottom-popup {
+  position: absolute;
+  bottom: 60px; }
+
 .party-box {
   width: 100px;
   height: 150px;
@@ -5291,33 +5295,7 @@ button.close {
 .content-box-pirate {
   margin: 50px 20px;
   padding: 10px 5px;
-  height: 625px;
-  width: 500px;
-  background-color: #f16c90; }
-  @media all and (max-width: 767px) {
-    .content-box-pirate {
-      height: 600px;
-      width: 350px; }
-      .content-box-pirate.about-box {
-        height: 650px; }
-      .content-box-pirate.workshop-box {
-        height: 700px; } }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .content-box-pirate {
-      height: 625px;
-      width: 350px; }
-      .content-box-pirate.about-box {
-        height: 650px; }
-      .content-box-pirate.workshop-box {
-        height: 700px; } }
-  @media all and (min-width: 992px) and (max-width: 1199px) {
-    .content-box-pirate {
-      height: 650px; } }
-
-.content-box-pirate {
-  margin: 50px 20px;
-  padding: 10px 5px;
-  height: 625px;
+  height: 650px;
   width: 500px;
   background-color: #f16c90; }
   @media all and (max-width: 767px) {
@@ -5343,7 +5321,7 @@ button.close {
 .content-box-princess {
   margin: 50px 20px;
   padding: 10px 5px;
-  height: 625px;
+  height: 650px;
   width: 500px;
   background-color: #f16c90; }
   @media all and (max-width: 767px) {
@@ -5369,7 +5347,7 @@ button.close {
 .content-box-superhero {
   margin: 50px 20px;
   padding: 10px 5px;
-  height: 625px;
+  height: 650px;
   width: 500px;
   background-color: #f16c90; }
   @media all and (max-width: 767px) {
