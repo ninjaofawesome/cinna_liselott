@@ -32,4 +32,12 @@
       }, 1400);
     });
 
+    $("#workshopAbout").click(function (){
+      $('html, body').animate({
+          scrollTop: $(".about-box").offset().top
+      }, 1000);
+    });
+
+
+
   });

@@ -84,5 +84,13 @@
       font-size: .85em;
     }
   }
+
+  &.tiny-button {
+    background-color: $rose;
+    color: $melon;
+    font-size: 1em;
+    padding: 5px 8px;
+    margin: 2px;
+  }
 }
 

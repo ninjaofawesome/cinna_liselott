@@ -5217,7 +5217,7 @@ button.close {
   background-size: cover; }
 
 .content-box {
-  margin: 50px 20px;
+  margin: 75px 20px;
   padding: 10px 5px;
   height: 650px;
   width: 500px;
@@ -5290,10 +5290,14 @@ button.close {
 .party-box {
   width: 100px;
   height: 150px;
-  text-align: justify; }
+  text-align: justify;
+  line-height: 1.6em; }
+
+.xs-nav-action {
+  padding: 10px; }
 
 .content-box-pirate {
-  margin: 50px 20px;
+  margin: 75px 20px;
   padding: 10px 5px;
   height: 650px;
   width: 500px;
@@ -5319,7 +5323,7 @@ button.close {
       height: 650px; } }
 
 .content-box-princess {
-  margin: 50px 20px;
+  margin: 75px 20px;
   padding: 10px 5px;
   height: 650px;
   width: 500px;
@@ -5345,7 +5349,7 @@ button.close {
       height: 650px; } }
 
 .content-box-superhero {
-  margin: 50px 20px;
+  margin: 75px 20px;
   padding: 10px 5px;
   height: 650px;
   width: 500px;
@@ -5408,6 +5412,10 @@ h6 {
     font-size: 3.5em;
     color: #f79c73;
     margin-top: 0; }
+    .title.subtitle.lime {
+      color: #b3d56a; }
+    .title.subtitle.white {
+      color: white; }
     @media all and (max-width: 767px) {
       .title.subtitle {
         font-size: 2em; } }
@@ -5416,17 +5424,6 @@ h6 {
         font-size: 2.5em; } }
     @media all and (min-width: 992px) and (max-width: 1199px) {
       .title.subtitle {
-        font-size: 3em; } }
-  .title.section-title {
-    font-size: 3.5em; }
-    @media all and (max-width: 767px) {
-      .title.section-title {
-        font-size: 2em; } }
-    @media all and (min-width: 768px) and (max-width: 991px) {
-      .title.section-title {
-        font-size: 2.5em; } }
-    @media all and (min-width: 992px) and (max-width: 1199px) {
-      .title.section-title {
         font-size: 3em; } }
 
 p {
@@ -5456,9 +5453,6 @@ p {
   font-weight: 800;
   color: white;
   list-style-type: none; }
-
-.right-text {
-  text-align: right; }
 
 .inline {
   display: inline; }
@@ -5548,3 +5542,9 @@ p {
         padding: 3px 5px;
         margin: .5px;
         font-size: .85em; } }
+  .btn.tiny-button {
+    background-color: #ee3e63;
+    color: #f79c73;
+    font-size: 1em;
+    padding: 5px 8px;
+    margin: 2px; }
