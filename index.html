@@ -80,7 +80,7 @@
                 <div class="party-box">
                   <p class="big-text">Party Party Pirates!</p>
                   <p class="inline">Set sail on the seven seas of fun with this party theme!</p>
-                  <button id="pirate" type="button" class="btn btn-sm tiny-button">MORE INFO</button>
+                  <button id="pirate" type="button" class="btn btn-sm tiny-button find-me">MORE INFO</button>
                 </div>
               </div>
 
@@ -88,7 +88,7 @@
                 <div class="party-box">
                   <p class="big-text">Superstar Princess Party!</p>
                   <p class="inline">This royal party theme rules!</p>
-                  <button id="princess" type="button" class="btn btn-sm tiny-button">MORE INFO</button>
+                  <button id="princess" type="button" class="btn btn-sm tiny-button find-me">MORE INFO</button>
                 </div>
               </div>
 
@@ -96,9 +96,11 @@
                 <div class="party-box">
                   <p class="big-text">Superhero Birthday Bash!</p>
                   <p class="inline">Save the world..  from boredom!</p>
-                  <button id="superhero" type="button" class="btn btn-sm tiny-button">MORE INFO</button>
+                  <button id="superhero" type="button" class="btn btn-sm tiny-button find-me">MORE INFO</button>
                 </div>
               </div>
+
+              <div id="output"></div>
 
               <ul class="navigation visible-xs visible-sm">
                 <li class="whitelist"><div class="bold-inline-text">Party Party Pirates!</div></li>
@@ -124,40 +126,40 @@
         </div> <!-- this closes the box with the workshops visible -->
 
         <div class="col-md-6">
-          <div class="content-box-pirate">
+          <div id="pirate-box" class="content-box-pirate hidden-box">
             <div class="words-box">
               <h1>PIRATE PARTY</h1>
               <p class="big-text">Shiver me timbers!  Pirate Parties are super fun!</p>
               <p class="inline"> Does your child love adventures?  Then they'll love this puppet party theme!  The Pirate Puppet Party includes individual stick puppet kits for each child as well as supervised play.  After making the puppets, the party pirates will all coreograph a show for their adults and others, finished by a lively round of Happy Birthday sung to the birthday child.  Arrr!</p>
               <div class="sticky-bottom-popup button-box">
-                <button type="button" id="close-pirate" class="btn btn-sm tiny-button">CLOSE</button>
+                <button type="button" id="close-pirate" class="btn btn-sm tiny-button close-me">CLOSE</button>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-md-6">
-          <div class="content-box-princess">
+          <div id="princess-box" class="content-box-princess hidden-box">
             <div class="words-box">
               <h1>PRINCESS PARTY</h1>
               <p class="big-text">All that glitters is solid gold with the Princess Party Theme!</p>
               <p class="inline"> Hold court for your child's birthday with this royalty themed puppet party.  The Princess Puppet Party includes individual stick puppet kits for each child as well as supervised play.  After making the puppets, the party royal court will all coreograph a show for their adults and others, finished by a lively round of Happy Birthday sung to the birthday child.</p>
               <div class="sticky-bottom-popup button-box">
-                <button type="button" id="close-princess" class="btn btn-sm tiny-button">CLOSE</button>
+                <button type="button" id="close-princess" class="btn btn-sm tiny-button close-me">CLOSE</button>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-md-6">
-          <div class="content-box-superhero">
+          <div id="superhero-box" class="content-box-superhero hidden-box">
             <div class="words-box">
               <h1>SUPERHERO PARTY</h1>
               <p class="big-text">Save the world from boring birthdays!</p>
               <p class="inline"> Adventure awaits when you host this party!  The Superhero Puppet Party includes individual stick puppet kits for each child as well as supervised play.  After making the puppets, the party super friends will all coreograph a show for their adults and others, finished by a lively round of Happy Birthday sung to the birthday child.</p>
               <
               <div class="sticky-bottom-popup button-box">
-                <button type="button" id="close-superhero" class="btn btn-sm tiny-button">CLOSE</button>
+                <button type="button" id="close-superhero" class="btn btn-sm tiny-button close-me">CLOSE</button>
               </div>
             </div>
           </div>

@@ -5,36 +5,32 @@ $(document).ready(function (){
   $('.content-box-princess').hide();
   $('.content-box-superhero').hide();
 
-
-  $('#pirate').click(function(){
-    console.log('pirate');
-    $('.content-box-pirate').fadeIn(600);
+var findClick = function(){
+  // var results = use this to get the id you want and return the results
+  $('#princess.find-me').click(function(){
+     $('.content-box-princess').fadeIn(600);
   });
-
-  $('#close-pirate').click(function(){
-    console.log('pirate close');
-    $('.content-box-pirate').fadeOut(600);
+  $('#pirate.find-me').click(function(){
+     $('.content-box-pirate').fadeIn(600);
   });
-
-  $('#princess').click(function(){
-    console.log('princess');
-    $('.content-box-princess').fadeIn(600);
+  $('#superhero.find-me').click(function(){
+     $('.content-box-superhero').fadeIn(600);
   });
+}
 
-
-  $('#close-princess').click(function(){
-    console.log('pirate close');
-    $('.content-box-princess').fadeOut(600);
+var hideMe = function(){
+  $('#close-princess.close-me').click(function(){
+     $('.content-box-princess').fadeOut(600);
   });
-
-  $('#superhero').click(function(){
-    console.log('superhero');
-    $('.content-box-superhero').fadeIn(600);
+  $('#close-pirate.close-me').click(function(){
+     $('.content-box-pirate').fadeOut(600);
   });
-
-  $('#close-superhero').click(function(){
-    console.log('pirate close');
-    $('.content-box-superhero').fadeOut(600);
+  $('#close-superhero.close-me').click(function(){
+     $('.content-box-superhero').fadeOut(600);
   });
+}
+
+findClick();
+hideMe();
 
 });
