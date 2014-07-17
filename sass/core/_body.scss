@@ -66,6 +66,9 @@
 
 .navigation{
   list-style-type: none;
+  &.not-home {
+    margin: 0 0 0 5%;
+  }
 }
 
 .list-no-pad {

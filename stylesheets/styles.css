@@ -5272,6 +5272,8 @@ button.close {
 
 .navigation {
   list-style-type: none; }
+  .navigation.not-home {
+    margin: 0 0 0 5%; }
 
 .list-no-pad {
   padding-left: 0; }
@@ -5470,10 +5472,10 @@ p {
     text-decoration: none; }
 
 .btn {
-  padding: 8px 10px;
+  padding: 5px 8px;
   margin: 1px;
   font-family: 'tondu beta', helvetica, arial, sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
   border-radius: 6px;
   -webkit-transition: background-color 700ms;
   -moz-transition: background-color 700ms;
@@ -5482,66 +5484,18 @@ p {
   .btn:hover, .btn:focus, .btn:active, .btn:visited {
     outline: none;
     border: none; }
-  @media all and (max-width: 767px) {
-    .btn {
-      padding: 4px 6px;
-      margin: .5px;
-      font-size: 1em; } }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .btn {
-      padding: 4px 6px;
-      margin: .5px;
-      font-size: 1em; } }
   .btn.green-button {
     background-color: #00ab67;
     color: #b3d56a; }
     .btn.green-button:hover {
       background-color: #b3d56a;
       color: #00ab67; }
-  .btn.green-button-home {
-    padding: 7px 9px;
-    margin: .5px;
-    font-size: 1.25em;
-    background-color: #00ab67;
-    color: #b3d56a; }
-    .btn.green-button-home:hover {
-      background-color: #b3d56a;
-      color: #00ab67; }
-    @media all and (max-width: 767px) {
-      .btn.green-button-home {
-        padding: 3px 5px;
-        margin: .5px;
-        font-size: .85em; } }
-    @media all and (min-width: 768px) and (max-width: 991px) {
-      .btn.green-button-home {
-        padding: 3px 5px;
-        margin: .5px;
-        font-size: .85em; } }
   .btn.rose-button {
     background-color: #ee3e63;
     color: #f79c73; }
     .btn.rose-button:hover {
       background-color: #f79c73;
       color: white; }
-  .btn.rose-button-home {
-    padding: 7px 9px;
-    margin: .5px;
-    font-size: 1.25em;
-    background-color: #ee3e63;
-    color: #f79c73; }
-    .btn.rose-button-home:hover {
-      background-color: #f79c73;
-      color: white; }
-    @media all and (max-width: 767px) {
-      .btn.rose-button-home {
-        padding: 3px 5px;
-        margin: .5px;
-        font-size: .85em; } }
-    @media all and (min-width: 768px) and (max-width: 991px) {
-      .btn.rose-button-home {
-        padding: 3px 5px;
-        margin: .5px;
-        font-size: .85em; } }
   .btn.tiny-button {
     background-color: #ee3e63;
     color: #f79c73;
