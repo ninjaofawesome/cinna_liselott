@@ -5263,8 +5263,6 @@ button.close {
 
 .navigation {
   list-style-type: none; }
-  .navigation.not-home {
-    margin: 0 0 0 5%; }
 
 .list-no-pad {
   padding-left: 0; }
