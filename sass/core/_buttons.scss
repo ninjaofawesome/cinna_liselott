@@ -3,10 +3,19 @@
   margin: 1px;
   font-family: 'tondu beta', helvetica, arial, sans-serif;
   font-size: 1em;
-  border-radius: 6px;
+  border-radius: 4px;
   &:hover, &:focus, &:active, &:visited {
     outline: none;
     border: none;
+  }
+  @include breakpoint(tablet){
+    padding: 4px 6px;
+    margin: 1px 0;
+  }
+  @include breakpoint(mobile){
+    padding: 4px 6px;
+    margin: 1px 0;
+    font-size: .75em;
   }
 
   @include smooth-operator(700ms);
