@@ -28,5 +28,4 @@ $(document).ready(function (){
      $('.content-box-superhero').fadeOut(600);
   });
 
-
 });
