@@ -5,18 +5,18 @@ $(document).ready(function (){
   $('.content-box-princess').hide();
   $('.content-box-superhero').hide();
 
-var findClick = function(){
-  // var results = use this to get the id you want and return the results
-  $('#princess.find-me').click(function(){
+
+  $('#princessparty').click(function(){
+      console.log("princess");
      $('.content-box-princess').fadeIn(600);
   });
-  $('#pirate.find-me').click(function(){
+  $('#pirateparty').click(function(){
      $('.content-box-pirate').fadeIn(600);
   });
-  $('#superhero.find-me').click(function(){
+  $('#superheroparty').click(function(){
      $('.content-box-superhero').fadeIn(600);
   });
-}
+
 
 var hideMe = function(){
   $('#close-princess.close-me').click(function(){
@@ -30,7 +30,7 @@ var hideMe = function(){
   });
 }
 
-findClick();
+
 hideMe();
 
 });
