@@ -18,7 +18,6 @@ $(document).ready(function (){
   });
 
 
-var hideMe = function(){
   $('#close-princess.close-me').click(function(){
      $('.content-box-princess').fadeOut(600);
   });
@@ -28,9 +27,6 @@ var hideMe = function(){
   $('#close-superhero.close-me').click(function(){
      $('.content-box-superhero').fadeOut(600);
   });
-}
 
-
-hideMe();
 
 });
